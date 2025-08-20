@@ -2,7 +2,6 @@
 
 <div align="center">
 
-<img src="profile_pic.jpeg" width="200" height="200" style="border-radius: 50%; border: 4px solid #4285f4; margin-bottom: 20px;" alt="Shabbir Hussain Profile Picture"/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=shabbir-hussain-git&color=4285f4&style=for-the-badge)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hshabbir36)
