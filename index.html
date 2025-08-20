@@ -72,8 +72,36 @@
         }
 
         .profile-img {
-            width: 120px;
-            height: 120px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 24px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--elevation-3);
+        }
+
+        .profile-img::after {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 50%;
+            padding: 4px;
+            background: linear-gradient(135deg, var(--google-blue), var(--google-green), var(--google-yellow), var(--google-red));
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask-composite: exclude;
+        }
+
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .profile-img-fallback {
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             background: linear-gradient(135deg, var(--google-blue), var(--google-blue-dark));
             display: flex;
@@ -88,7 +116,7 @@
             position: relative;
         }
 
-        .profile-img::after {
+        .profile-img-fallback::after {
             content: '';
             position: absolute;
             inset: -4px;
@@ -529,7 +557,12 @@
     <div class="container">
         <!-- Header Section -->
         <div class="header">
-            <div class="profile-img">SH</div>
+            <!-- Profile Picture (will show your image, fallback to initials) -->
+            <div class="profile-img">
+                <img src="profile_pic.jpeg" alt="Shabbir Hussain Profile Picture" 
+                     onerror="this.parentElement.innerHTML='<div class=\'profile-img-fallback\'>SH</div>'"/>
+            </div>
+            
             <h1 class="name">Shabbir Hussain</h1>
             <p class="title">Senior Software Engineer | Full-Stack Developer | AI Enthusiast</p>
             <div class="contact-info">
@@ -559,8 +592,8 @@
                     <span class="stat-label">Users Served</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">50+</span>
-                    <span class="stat-label">Hours Saved</span>
+                    <span class="stat-number">🏆</span>
+                    <span class="stat-label">AWS Hackathon Winner</span>
                 </div>
             </div>
         </div>

@@ -1,0 +1,155 @@
+% ATS-Friendly Resume Template
+% This template is designed to be easily parsed by Applicant Tracking Systems
+% Uses simple formatting and clear section headers
+
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tabularx}
+
+% Hyperref settings for clean links
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    pdfauthor={Shabbir Hussain},
+    pdftitle={Shabbir Hussain - Resume}
+}
+
+% Remove page numbers
+\pagenumbering{gobble}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.1}
+
+% Custom section formatting - ATS friendly
+\titleformat{\section}
+{\large\bfseries\uppercase}
+{}
+{0em}
+{}[\titlerule]
+
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+% Custom subsection formatting
+\titleformat{\subsection}
+{\normalsize\bfseries}
+{}
+{0em}
+{}
+
+\titlespacing{\subsection}{0pt}{8pt}{4pt}
+
+% Remove default indentation
+\setlength{\parindent}{0pt}
+
+% Custom list formatting
+\setlist[itemize]{leftmargin=*,noitemsep,topsep=0pt}
+
+\begin{document}
+
+% Header Section
+\begin{center}
+    {\LARGE\textbf{SHABBIR HUSSAIN}}\\[8pt]
+    \href{mailto:pshabbir36@gmail.com}{pshabbir36@gmail.com} $\cdot$ 
+    \href{tel:+1234567890}{+91 8447149834} $\cdot$ 
+    \href{www.linkedin.com/in/hshabbir36}{LinkedIn: Shabbir} $\cdot$ 
+    \href{https://github.com/shabbir-hussain-git}{GitHub: shabbir-hussain-git}\\[4pt]
+    Bengaluru, Karnataka, 560103
+\end{center}
+
+\vspace{8pt}
+
+% Professional Summary Section
+\section{Professional Summary}
+Accomplished Software Engineer with 6+ years of experience in full-stack development, delivering robust applications for the fantasy sports and IOT and fintech industries. Expertise in creating mobile solutions with both React Native and native iOS, alongside web development using Next.js and React. Coupled with a strong backend proficiency in Node.js and Java, recognized for leading a successful mobile app transition and building a secure trade finance platform.
+
+% Skills Section
+\section{Technical Skills}
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Frontend:} &  React Native, React, Next.js, TypeScript, JavaScript \\
+\textbf{Backend:} & Node.js, Java, Java EE, REST APIs \\
+\textbf{IoT \& Hardware Integration:} & Bluetooth Low Energy (BLE), Bluetooth Mesh \\
+\textbf{Cloud \& DevOps:} & AWS, CI/CD, Git \\
+\textbf{Tools \& Technologies:} & Linux, Microservices, Agile/Scrum \\
+\end{tabularx}
+
+% Experience Section
+\section{Professional Experience}
+
+\subsection{SDE-2 | Games24x7 | Bengaluru | Nov 2023 - Present}
+\begin{itemize}
+\item Develop and maintain features for the My11Circle application such as  such as team creation, contest participation, and live scoring, serving over 10 million active users and ensuring high performance in a high-traffic environment.
+\item Spearheaded the revamp of live contest features by implementing a "Winner Reactions" video functionality, an initiative that directly resulted in a 5\% revenue increase and a 7\% boost in user engagement.
+\item Led the successful upgrade of the React Native framework from v0.71 to v0.76, improving app stability and reducing average build times by 20%.
+\item Integrated the Sentry SDK for proactive issue monitoring, leading to a 30\% reduction in critical production crashes.
+\item Engineered a "Team Compare and Team Review" feature to enhance strategic gameplay, which increased average user session time by 3 minutes.
+\item Implemented a customer support portal with a fully integrated Zendesk chat, reducing average ticket resolution time by 25%.
+\end{itemize}
+
+\subsection{Lead Full Stack Engineer | BondBlox, Hyderabad | Oct 2021 – Nov 2023}
+\begin{itemize}
+    \item Led the end-to-end development of the BondBlox mobile app, successfully transitioning the platform to React Native to unify the codebase and accelerate feature deployment.
+    \item Engineered and maintained robust, scalable backend services and APIs using Node.js and MySQL on an AWS infrastructure to support both web and mobile platforms.
+\end{itemize}
+
+\subsection{Senior Software Engineer | Newgen Software, Noida | Jan 2018-Oct 2021}
+\begin{itemize}
+    \item Led the end-to-end development of a new Trade Finance platform from concept to launch, building the frontend with Angular and the backend with Java EE and an Oracle database.
+    \item Developed and deployed various automation utilities that streamlined internal processes and improved operational efficiency.
+\end{itemize}
+
+% Projects Section
+\section{Key Projects}
+
+\subsection{VerifAI - AI-Powered Mobile Testing Automation | January 2025}
+\begin{itemize}
+    \item Led development of AI-powered mobile testing automation system that reduced PR verification time by 83\% (30-60 minutes to under 10 minutes)
+    \item Architected intelligent test generation using Amazon Bedrock (Claude 3) with automated Android emulator testing via natural language instructions
+    \item Built enterprise-grade Node.js/TypeScript backend with RESTful APIs, achieving 95\%+ test coverage and saving 50+ developer hours monthly
+    \item Technologies: Amazon Bedrock, Claude 3, Node.js, TypeScript, Mobile-MCP, GitHub Actions, Android SDK, Jest
+\end{itemize}
+
+\subsection{ProtcoSigma Controller - BLE Mesh Network App | React Native, TypeScript, Redux}
+\begin{itemize}
+    \item Architected and developed a sophisticated cross-platform application using React Native and TypeScript for professional-grade management and configuration of complex Bluetooth Mesh IoT networks.
+    
+    \item Engineered a robust state management system with Redux Toolkit to handle complex network topologies and real-time device states, while integrating low-level Bluetooth functionality via the Nordic nRF Mesh SDK for secure device provisioning and communication.
+\end{itemize}
+
+
+\subsection{Magic Controller | React Native, Bluetooth Low Energy (BLE)}
+\begin{itemize}
+    \item Developed an offline-first mobile application using React Native and BLE for direct binding and real-time control of smart devices, enabling users to manage on/off state, color, and intensity.
+    
+    \item Implemented an advanced device grouping feature that leverages BLE broadcasting to send synchronized commands to multiple devices simultaneously, allowing for efficient scene and group control.
+\end{itemize}
+
+\subsection{FastLottie | React Native, RNFS, AsyncStorage}
+\begin{itemize}
+    \item Architected and published an in-house React Native library to resolve a significant performance bottleneck by implementing a local caching mechanism using react-native-fs and AsyncStorage for Lottie animations.
+    \item This solution drastically reduced network dependency and load times by intelligently managing the cache lifecycle, resulting in a significantly smoother user experience and improved application performance.
+\end{itemize}
+
+
+
+
+
+
+% Education Section
+\section{Education}
+\subsection{GL Bajaj Institute of Technology and Management, Greater Noida}
+Bachelor of Technology (B.Tech.) in Computer Science \hfill 2014 – 2018
+% Achievements Section
+\section{Achievements \& Awards}
+\begin{itemize}
+    \item Winners of AWS Agentic AI hackathon
+    \item Awarded multiple recognitions at Games24x7 Software, including Rising Star, Extra Mile (4x), and Kudos (6x) for exceptional performance and contributions.
+\end{itemize}
+
+\end{document}

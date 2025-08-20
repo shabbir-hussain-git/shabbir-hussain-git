@@ -1,0 +1,26 @@
+Of course. Here is a compelling single-page summary, written in the first person, that you can use for a cover letter, a personal portfolio "About Me" page, or a detailed LinkedIn summary. It weaves the key achievements from your resume into a professional narrative.
+
+***
+
+## Shabbir Hussain
+Full-Stack & Mobile Engineer
+
+
+
+Hello! I'm Shabbir Hussain, a software engineer with over six years of experience building and scaling high-impact applications across the full stack. My passion lies in solving complex problems, from enhancing user engagement on platforms with millions of users to architecting cutting-edge solutions in the IoT and AI spaces.
+
+### Driving Business Growth Through User-Centric Features
+
+In my current role as an SDE-2 at **Games24x7**, I work on the **My11Circle** application, a platform serving over 10 million active users. My focus is on developing features that directly translate to business growth and user satisfaction. I recently spearheaded the "Winner Reactions" feature, an initiative that resulted in a **5% increase in revenue** and a **7% boost in user engagement**. I thrive on the technical challenges that come with a massive user base, having led a critical React Native framework upgrade that **improved app stability and reduced build times by 20%** and integrated advanced error monitoring that **cut critical production crashes by 30%**.
+
+### Leadership in Technical Innovation & Platform Modernization
+
+Before my current role, I led key modernization and development projects that set the foundation for business success. As a Lead Full Stack Engineer at **Bondevalue**, I orchestrated the end-to-end development of the **BondBlox** mobile trading app, successfully transitioning the platform to React Native to accelerate feature deployment. At **Newgen Software**, I led the development of a new **Trade Finance platform** from the ground up, architecting a secure backend with Java EE and Oracle to handle high-value international transactions.
+
+### A Passion for Innovation: From IoT to AI
+
+Beyond my core roles, I am passionate about exploring emerging technologies. I've developed several applications for the **Internet of Things (IoT)**, creating controllers for **Bluetooth Low Energy (BLE) and Mesh networks** that manage device binding, grouping, and real-time control. This passion for innovation recently led my team to win the **AWS Agentic AI Hackathon**, where I led the development of **VerifAI**, an AI-powered testing system. By leveraging Amazon Bedrock, we created a solution that **reduced PR verification time by 83%** and is projected to save over 50 developer hours monthly.
+
+My goal is to continue leveraging my diverse skill set—spanning from **native iOS and React Native** to **Node.js, Java, and AI**—to build products that are not only technically excellent but also create a meaningful impact.
+
+I'm always open to connecting and discussing new challenges in technology.
