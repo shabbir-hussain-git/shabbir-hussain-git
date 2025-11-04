@@ -1,0 +1,23 @@
+Shabbir Hussain
+SSLV Mansion, Panathur, Karnataka | pshabbir36@gmail.com | +918447149834
+27/08/2025
+
+Hiring Manager
+Shape Construction
+
+Subject: Application for Software Engineer Position
+
+Dear Hiring Manager,
+
+I am writing to express my enthusiastic interest in a Software Engineer position at Shape Construction, as advertised on your website. With over seven years of experience in full-stack development, I have a proven track record of delivering robust and scalable applications. I am particularly drawn to Shape Construction's innovative approach to the industry, and I am confident that my skills in mobile and web development would be a valuable asset to your team.
+
+Throughout my career, I have honed my expertise in a wide range of technologies, including React Native, React, Next.js, and Node.js. In my current role at Games24x7, I have been instrumental in developing and maintaining features for a high-traffic application with over 10 million active users. My work on the "Winner Reactions" video functionality led to a 5% increase in revenue and a 7% boost in user engagement. I have also successfully led the upgrade of the React Native framework, resulting in a 20% reduction in build times and a 30% decrease in critical production crashes.
+
+Prior to this, as a Lead Full Stack Engineer at BondBlox, I led the end-to-end development of their mobile application, transitioning the platform to React Native to unify the codebase and accelerate feature deployment. I also have extensive experience in building secure and scalable backend services and APIs using Node.js and Java.
+
+I am particularly excited about the opportunity to contribute to a company that is at the forefront of the construction industry. My experience in developing complex applications, coupled with my ability to lead and collaborate with cross-functional teams, makes me a strong candidate for this role. I am confident that I can contribute to the continued success of Shape Construction.
+
+Thank you for your time and consideration. I have attached my resume for your review and welcome the opportunity to discuss my qualifications further.
+
+Sincerely,
+Shabbir Hussain
